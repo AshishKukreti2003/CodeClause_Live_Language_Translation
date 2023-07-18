@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     box-sizing: border-box;
     outline: none;
     text-decoration: none;
@@ -45,6 +45,50 @@ body{
     padding: 12px 0;
 }
 
-.hero .button, li, i{
+.button, li, i{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button .row select{
+    color: #333;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 2px solid black;
+    background: none;
+}
+
+.button change{
+    color: #dd5353;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button i:active{
+    transform: scale(0.9);
+}
+
+.groupy{
+    border: 2px solid black;
+    background: #fccaca;
+}
+
+.groupy .text-input{
+    display: flex;
+}
+
+.text-input .to-text{
+    border-left: 2px solid black;
+}
+
+.text-input textarea{
+    resize: none;
+    height: 100px;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
 }
