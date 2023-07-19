@@ -244,43 +244,7 @@ body.dark {
   right: 20px;
   z-index: 1;
 }
-.toggle {
-  position: relative;
-  cursor: pointer;
-}
-.toggle-track {
-  width: 24px;
-  height: 50px;
-  border-radius: 30px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 3px 0;
-  justify-content: space-between;
-  border: 1px solid var(--light-text-color);
-  background-color: var(--light-bg-color);
-  transition: all 0.2s ease;
-}
-.toggle-checkbox {
-  display: none;
-}
-.toggle-thumb {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: var(--primary-color);
-  transition: all 0.5s;
-}
-.toggle input:checked ~ .toggle-thumb {
-  transform: translateY(25px);
-}
-.toggle img {
-  width: 20px;
-  height: 20px;
-}
+
 
 /* media quiries */
 @media (max-width: 800px) {
